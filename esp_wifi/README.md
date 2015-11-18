@@ -1,6 +1,6 @@
 
 
-= Esp8266 hookup
+# Esp8266 hookup
 
 Esp8266 er i vår sammenheng flashet slik at den fungerer som en serial to wifi/http
 chip. Det vil si at vi bruker et api som snakker med esp'en og som videre går ut
@@ -9,7 +9,7 @@ på internett.
 
 Under kommer en beskrivelse av hvordan vi debuger og utvikler med esp.
 
-== Første versjon - http://requestb.in/
+## Første versjon - http://requestb.in/
 
  * gå til http://requestb.in/
  * trykk på "Create a RequestBin"
@@ -18,7 +18,7 @@ Under kommer en beskrivelse av hvordan vi debuger og utvikler med esp.
  * Refresh siden når du mener du skal ha sendt noe til internett.
 
 
- == Push til mobiltelefon
+## Push til mobiltelefon
 
 Dette er litt mer komplisert fordi det er flere ting som skal settes opp og snakke
 sammen. Men vi gjør veldig lite av selve jobben. Følg listen så går det nok bra.
